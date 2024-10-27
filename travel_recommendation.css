@@ -98,8 +98,8 @@ nav {
   .main {
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
-    height: 900px;
-
+    min-height: 1000px;
+    background-repeat: repeat-y;
   }
 
   .big-title {
