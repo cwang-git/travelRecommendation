@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Recommendation</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+    <nav class="py-1 px-1">
+        <div class="row col-12 pe-0 pb-0 mb-0 align-items-center">
+            <div class="col-4 pe-0 pb-0 mb-0">
+                <h1>TravelBloom</h1>
+            </div>
+            <div class="col-4 pe-0 pb-0 mb-0 text-center">
+                <ul class="px-0 mb-0">
+                    <li><a href="./index.html" id="home">Home </a></li>
+                    <li><a href="./about.html" id="contact">About Us </a></li>
+                    <li><a href="./contact.html" id="contact">Contact Us </a></li>
+                  
+                  </ul>
+            </div>
+            <div class="col-4 pe-0 pb-0 mb-0 text-end">
+                <input type = "text" id="searchInput" class="rounded-pill px-3" placeholder=" Enter a destination or keyword">
+                <button id='btnSearch' class="btn btn-success" onClick="generateSearchResult()">Search</button>
+                <button id='btnClear' class="btn btn-success" onClick="resetSearch()">Clear</button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="main row">
+        <div class="col-1"></div>
+        <div class="col-5">
+            <div style="height:20%"></div>
+            <div class="big-title">
+                <div class="my-0 py-0">EXPLORE</div>
+                <div class="my-0 py-0">DREAM</div>
+                <div class="my-0 py-0">DESTINATION</div>
+            </div>
+            <div class="small-title">
+                <div class="my-0 py-0">
+                    It encourages exploration of unfamiliar
+                </div>
+                    territories, embracing diverse cultures and
+                <div class="my-0 py-0">
+                    landscapes, while pursuing the desired
+                </div>
+                <div class="my-0 py-0">
+                    destination that captivates the heart and
+                </div>
+                <div class="my-0 py-0">
+                    ignites a sense of wonder.
+                </div class="my-0 py-0">
+            </div>
+            <div>
+                <button id='btnClear' class="btn btn-success">BOOK NOW</button>
+            </div>
+        </div>
+        <div class="col-5 ms-5 mt-5" id="searchResult">
+            <!--<div class="rounded " style="height:300px;">
+                card
+                <img src="https://media.istockphoto.com/id/1250523627/photo/copacabana-sidewalk-mosaic-and-palm-trees-in-rio-de-janeiro.jpg?s=2048x2048&w=is&k=20&c=An_o2jC4586yhTqvZQjxLLiB4VjHz5OEFuqHHUJJ1vg="/>
+            </div>-->
+            
+        </div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>

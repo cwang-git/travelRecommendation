@@ -1,0 +1,81 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://t4.ftcdn.net/jpg/04/12/81/69/240_F_412816969_cpRI2c2aSHobr77aOOzgO3kcW7FWCn9e.jpg",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://media.istockphoto.com/id/477607498/photo/melbourne-cbd-river-rise.jpg?s=612x612&w=0&k=20&c=nLmNEuqumNHUgzso_F6ubmHn9-UcEjmRLpA20N1Tbpg=",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://media.gettyimages.com/id/904453184/photo/composite-image-of-mt-fuji-and-tokyo-skyline.jpg?s=612x612&w=0&k=20&c=EAJrI5nVsDuIkiv7o3NY1LsaZHRCcOWUOvk2g9FfFD0=",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://media.istockphoto.com/id/1146262403/photo/woman-wearing-japanese-traditional-kimono-walking-at-historic-higashiyama-district-in-spring.jpg?s=2048x2048&w=is&k=20&c=3lw0-OS198D2KH8KuaH3nCjxuDaSwUML9N83ilJ4B4w=",
+            "description": "Known for its historic temples, gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://media.istockphoto.com/id/518230906/photo/christ-the-redeemer-in-rio-de-janeiro.jpg?s=2048x2048&w=is&k=20&c=klM9y-rNsJZKnl033wwKrmQ8zB7igibAoSAHDhLe0ak=",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://media.istockphoto.com/id/878377556/photo/sao-paulo.jpg?s=2048x2048&w=is&k=20&c=m3DmdY7gZMi4im2X9kshQRRDHwObkKmVEr2s6T24SrQ=",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://media.istockphoto.com/id/944343802/photo/angkor-wat.jpg?s=2048x2048&w=is&k=20&c=Lo7UPEc0ZKN0YOKn9SJDUKKiItsbwVRlkLk8LPHCmFc=",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=2048x2048&w=is&k=20&c=IvXaJ9sZ6DWp3wwnK_j-k_eyaL_Lu61ym1Ejm-T7IaM=",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://media.gettyimages.com/id/585487404/photo/bora-bora-tahiti-mt-otemanu.jpg?s=2048x2048&w=gi&k=20&c=JbTAZ5Ilo65Y-8XWPpU_vb_nGsziiJU2-UQ_J_KEcBQ=",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://media.istockphoto.com/id/1250523627/photo/copacabana-sidewalk-mosaic-and-palm-trees-in-rio-de-janeiro.jpg?s=2048x2048&w=is&k=20&c=An_o2jC4586yhTqvZQjxLLiB4VjHz5OEFuqHHUJJ1vg=",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }
+  
