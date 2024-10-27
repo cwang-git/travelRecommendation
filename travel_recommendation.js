@@ -5,6 +5,7 @@ const btnSearch = document.getElementById('btnSearch');
 
 function resetSearch() {
     document.getElementById("searchInput").value = "";
+    document.getElementById('searchResult').innerHTML = '';
 }
 
 function generateSearchResult() {
@@ -45,3 +46,13 @@ function generateSearchResult() {
         resultDiv.innerHTML = 'An error occurred while fetching data.';
       });
 }
+
+document.getElementById("searchInput").addEventListener("keypress", function(event) {
+    // If the user presses the "Enter" key on the keyboard
+    if (event.key === "Enter") {
+      // Cancel the default action, if needed
+      event.preventDefault();
+      // Trigger the button element with a click
+      generateSearchResult();
+    }
+  });
